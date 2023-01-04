@@ -1,0 +1,28 @@
+:root{
+    --primario: #9c27b0;
+    --primarioOscuro: #89119d;
+    --amarillo: #ffce00;
+    --secundarioOscuro:rgb(233,287,2);
+    --blanco: #fff;
+    --negro: #000;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+}
+/*Pdding y border pasen a formar parte del calculo del ancho de la caja y no lo suman posteriormente*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;/*Para que un rem valga 10px 1rem=10px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/*Globales*/
+body{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;/*establece distancia entre líneas de texto*/
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
