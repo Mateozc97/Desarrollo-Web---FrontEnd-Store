@@ -49,3 +49,5 @@ html {
     box-sizing: inherit;
 }
 ```
+
+font-size: 62.5%; - Para que un rem valga 10px 1rem=10px
